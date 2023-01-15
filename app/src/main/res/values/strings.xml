@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Onboarding Desain</string>
+    <string name="oneboardingtext">Using a new output car with well maintained conditions and ready to deliver</string>
+    <string name="twoboardingtext">Get travel experience which is safe and comfortable</string>
+    <string name="threeboardingtext">We are a car rental company with decades of experience in renting cars to customers</string>
+    <string name="Sign_In">Sign In</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="start">LET’S START RENTING</string>
+    <string name="start1">AMAZING CARS</string>
+    <string name="start2">NEAR YOU</string>
+    <string name="bwhStart">Rent your dream car from the Best Company</string>
+    <string name="atsStart">PREMIUM CARS RENTAL IN PEKANBARU</string>
+    <string name="ats3Start">LET’S FIND YOUR</string>
+    <string name="ats3Start1">FAVOURITE CAR</string>
+    <string name="login">Log In</string>
+    <string name="register">Register</string>
+    <string name="google"><i>Continue With Google</i></string>
+    <string name="fb"><i>Continue With Facebook</i></string>
+    <string name="havet_account">Don’t Have an account yet? <b>Register</b></string>
+    <string name="have_account">Have an account Already? <b>Login</b></string>
+    <string name="ktadashboard">Rent to the end of the world this whole month cause we care when you are happy</string>
+    <string name="tambah_penyewa">Tambah Penyewa</string>
+    <string name="profile">PROFILE</string>
+    <string name="info1">Rental mobil merupakan salah satu usaha yang bergerak di bidang jasa tranportasi. Jasa yang diberikan adalah dengan menyewakan mobil untuk konsumen yang memerlukan mobil untuk keperluan keberangkatan ke suatu tempat atau ke luar daerah seperti kunjungan keluarga, rekreasi, mudik, dan kebutuhan konsumen lainnya</string>
+    <string name="ketkeranjang">Kerja bagus Pembayaran Anda Berhasil selesai dan mobil Anda sedang dalam perjalanan.</string>
+        <string name="spesifikasi">Mobil ini memiliki 4 kursi yang empuk dan nyaman dengan memiliki bagasi yang luas untuk meletakan barang barang bawaan. Rata rata kilometer per rental nya adalah 500 km dan menggunakan transmisi manual</string>
+
+</resources>

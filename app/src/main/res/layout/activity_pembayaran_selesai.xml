@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white"
+    tools:context=".PembayaranSelesaiActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/keranjang"
+            android:layout_width="112dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginTop="59dp"
+            android:background="@drawable/keranjang"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/keranjang"
+            android:layout_marginTop="25sp"
+            android:layout_weight="1"
+            android:fontFamily="@font/fontbold"
+            android:gravity="center"
+            android:text="Terima Kasih"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="338dp"
+            android:layout_height="77dp"
+            android:layout_marginTop="75sp"
+            android:layout_marginStart="20sp"
+            android:layout_weight="1"
+            android:fontFamily="@font/fontregular"
+            android:gravity="center"
+                android:text="@string/ketkeranjang"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnSelesai"
+            android:onClick="selesaipembayaran"
+            android:layout_width="365dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="130dp"
+            android:text="Selesai"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/shape_rectangle_blue"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

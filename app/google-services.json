@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "610221806267",
+    "project_id": "login-and-register-4d519",
+    "storage_bucket": "login-and-register-4d519.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610221806267:android:58e2679f72d82f51c48f9e",
+        "android_client_info": {
+          "package_name": "com.example.onboardingdesain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610221806267-0g7lvi81ele19n3n9vq6fv5ddkbv96nj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2QKapnHI6-OujubQdJ32L11jpzlp24GI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610221806267-0g7lvi81ele19n3n9vq6fv5ddkbv96nj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

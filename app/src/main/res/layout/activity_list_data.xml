@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListDataActivity">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="Daftar Penyewa"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+    <GridLayout
+        android:id="@+id/rv_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="25dp"
+        android:columnCount="1"
+        android:rowCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="130dp"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dtlnama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="35dp"
+                    android:text="Zhilan Muhammad"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/dtlbrio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="50dp"
+                    android:text="Honda Brio (M/T)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dtlplat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="70dp"
+                    android:text="BM 1234 AZ"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/dtlavanza"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toEndOf="@+id/dtlbrio"
+                    android:layout_toRightOf="@+id/dtlbrio"
+                    android:background="@drawable/brio" />
+
+                <TextView
+                    android:id="@+id/dtlkuning"
+                    android:layout_width="37dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toEndOf="@+id/dtlbrio"
+                    android:layout_toRightOf="@+id/dtlbrio"
+                    android:background="@drawable/shape_rectangle_kuning"
+                    android:gravity="center"
+                    android:text="M"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="130dp"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/dtlnama1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Tia Ramadhani"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/dtlhondaterios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Daihatsu Terios (A/T)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dtlplat1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="BM 1234 AZ"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/dtlterios1"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toEndOf="@+id/dtlhondaterios"
+                    android:layout_toRightOf="@+id/dtlhondaterios"
+                    android:background="@drawable/terios" />
+
+                <TextView
+                    android:id="@+id/dtlbiru"
+                    android:layout_width="37dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="55dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toEndOf="@+id/dtlhondaterios"
+                    android:layout_toRightOf="@+id/dtlhondaterios"
+                    android:background="@drawable/shape_rectangle_biru"
+                    android:gravity="center"
+                    android:text="A"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="350dp"
+            android:layout_height="130dp"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dtlnama2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Benjamin"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/dtlbrio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="Honda Brio (M/T)"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dtlplat2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginLeft="16dp"
+                    android:text="BM 1234 AZ"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:id="@+id/dtlbrio1"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toEndOf="@+id/dtlbrio2"
+                    android:layout_toRightOf="@+id/dtlbrio2"
+                    android:background="@drawable/brio" />
+
+                <TextView
+                    android:id="@+id/dtlkuning1"
+                    android:layout_width="37dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toEndOf="@+id/dtlbrio2"
+                    android:layout_toRightOf="@+id/dtlbrio2"
+                    android:background="@drawable/shape_rectangle_kuning"
+                    android:gravity="center"
+                    android:text="M"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:onClick="tambahpenyewa"
+            android:layout_width="355dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/tambah_penyewa"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/shape_rectangle_blue"/>
+
+        <Button
+            android:onClick="kembaliberanda"
+            android:layout_width="355dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="Kembali ke beranda"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginStart="13dp"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/shape_rectangle_blue"/>
+
+    </GridLayout>
+</RelativeLayout>
